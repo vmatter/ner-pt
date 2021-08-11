@@ -16,6 +16,8 @@ print(" ")
 columns = {0: 'token', 1:'pos', 2: 'sublabel', 3:'label'}
 data_folder = "data/"
 
+print("test")
+
 corpus: TaggedCorpus = NLPTaskDataFetcher.load_column_corpus(data_folder, columns,
   train_file="train_selective.txt",
   test_file="test_selective.txt",
